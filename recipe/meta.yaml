@@ -24,6 +24,7 @@ requirements:
     - requests
   run:
     - python >=3.5.3
+    - kfp-server-api >=0.2.5,<2.0.0
     - kfp ==1.1.2
 
 test:
