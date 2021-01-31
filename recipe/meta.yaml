@@ -1,5 +1,5 @@
 {% set name = "kfp-tekton" %}
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-tekton-{{ version }}.tar.gz
-  sha256: cd107e74615e39247c370c850f18dd43be4a520bd6c484a622863982e5bebf6d
+  sha256: ef3bbe90af9097e1e492f8ceeda0ac1ccd252c7f4da140781ec5ebf6cf803b2e
 
 build:
   number: 0
@@ -21,9 +21,9 @@ requirements:
   host:
     - pip
     - python >=3.5
-    - requests
   run:
-    - kfp ==1.0.4
+    - kfp ==1.1.2
+    - kfp-pipeline-spec
     - python >=3.5
 
 test:
