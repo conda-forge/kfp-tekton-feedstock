@@ -32,7 +32,6 @@ test:
     - kfp_tekton
     - kfp_tekton.compiler
   commands:
-    - pip check
     - dsl-compile-tekton --help
   requires:
     - pip
