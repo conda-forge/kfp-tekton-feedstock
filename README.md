@@ -1,7 +1,7 @@
 About `kfp-tekton`
 ================
 
-**Home:** https://github.com/kubeflow/kfp-tekton/sdk/
+**Home:** https://github.com/kubeflow/kfp-tekton/tree/master/sdk
 
 **Package license:** Apache-2.0
 
