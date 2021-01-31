@@ -1,13 +1,13 @@
-About `kfp-tekton`
+About kfp-tekton
 ================
 
-**Home:** https://github.com/kubeflow/kfp-tekton/tree/master/sdk
+Home: https://github.com/kubeflow/kfp-tekton/
 
-**Package license:** Apache-2.0
+Package license: Apache-2.0
 
-**Feedstock license:** [BSD-3-Clause](https://github.com/conda-forge/kfp-tekton-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kfp-tekton-feedstock/blob/master/LICENSE.txt)
 
-**Summary:** An SDK to compile [Kubeflow Pipeline](https://www.kubeflow.org/docs/pipelines/) DSL scripts to [Tekton PipelineRun](https://tekton.dev/docs/pipelines/) CRDs
+Summary: Tekton Compiler for Kubeflow Pipelines
 
 Current build status
 ====================
