@@ -23,7 +23,7 @@ requirements:
     - python >=3.5
   run:
     - kfp ==1.1.2
-    - kfp-pipeline-spec ==0.1.4
+    - kfp-pipeline-spec
     - python >=3.5
 
 test:
