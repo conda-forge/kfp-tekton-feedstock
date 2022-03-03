@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-tekton-{{ version }}.tar.gz
-  sha256: 181670084230e3f28223ec24e65067ce78bcf2c0a44a3b6d1d55120a30c001c
+  sha256: 181670084230e3f28223ec24e65067ce78bcf2c0a44a3b6d1d55120a30c001c4
 
 build:
   number: 1
