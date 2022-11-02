@@ -24,7 +24,7 @@ requirements:
     - requests
   run:
     - python >=3.5.3
-    - kfp >=1.8.10,<1.8.14
+    - kfp >=1.8.10,<1.8.15
 
 test:
   imports:
