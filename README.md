@@ -153,6 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@Tomcli](https://github.com/Tomcli/)
-* [@animeshsingh](https://github.com/animeshsingh/)
 * [@ckadner](https://github.com/ckadner/)
+* [@yhwang](https://github.com/yhwang/)
+* [@scrapcodes](https://github.com/scrapcodes/)
 
