@@ -1,5 +1,5 @@
 {% set name = "kfp-tekton" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-tekton-{{ version }}.tar.gz
-  sha256: 557efb416d53f0350f07f3ec8391b2b836e795ddbf1cf1b2722eadd1b3a71b16
+  sha256: af07b41457944985ddebbf473f06226ed653caeee80804b7e6cdbd17c6427258
 
 build:
   number: 0
