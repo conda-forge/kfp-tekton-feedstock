@@ -26,7 +26,7 @@ requirements:
     - python >=3.5.3
     - kfp >=1.8.10,<1.8.23
     - kfp-tekton-server-api >=1.5.0
-    - urllib3<2
+    - urllib3 <2
 
 test:
   imports:
