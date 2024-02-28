@@ -28,7 +28,7 @@ requirements:
     - kfp-tekton-server-api ==1.8.0rc8
     - urllib3 <2
     - PyYAML >=6,<7
-    - setuptools >= 69.1
+    - setuptools >=69.1
 
 test:
   imports:
