@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kfp-tekton-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/kfp-tekton-{{ version }}.tar.gz
   sha256: 1a0e30520e348d40340da94d35ffb30ae626358302af036c163abda9939d96b9
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - dsl-compile-tekton = kfp_tekton.compiler.main:main
@@ -19,11 +19,11 @@ build:
 
 requirements:
   host:
-    - python >=3.5.3
+    - python {{ python_min }}
     - pip
     - requests
   run:
-    - python >=3.5.3
+    - python >={{ python_min }}
     - kfp >=1.8.10,<1.8.23
     - kfp-tekton-server-api ==1.8.0rc8
     - urllib3 <2
@@ -38,6 +38,7 @@ test:
     - dsl-compile-tekton --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/kubeflow/kfp-tekton/
